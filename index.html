@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HormigasAIS | Inteligencia Distribuida</title>
+    <meta name="description" content="Infraestructura de inteligencia distribuida y soberana basada en el principio de la Colonia de Hormigas. Protocolo LBH.">
     <style>
         body {
             background-color: #0a0a0a;
@@ -13,7 +14,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             text-align: center;
         }
@@ -21,33 +22,48 @@
             border: 1px solid #00ff41;
             padding: 40px;
             box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
+            max-width: 80%;
         }
-        h1 { font-size: 2rem; margin-bottom: 10px; }
-        p { color: #ffffff; max-width: 600px; line-height: 1.6; }
+        h1 { font-size: 2.2rem; margin-bottom: 5px; letter-spacing: 2px; }
+        .dots { color: #00ff41; font-size: 1.2rem; margin-bottom: 20px; opacity: 0.8; animation: blink 2s infinite; }
+        p { color: #ffffff; max-width: 600px; line-height: 1.6; margin: 15px auto; }
         .btn {
             display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
+            margin-top: 15px;
+            padding: 12px 25px;
             color: #0a0a0a;
             background-color: #00ff41;
             text-decoration: none;
             font-weight: bold;
             text-transform: uppercase;
+            transition: 0.3s;
+            border: none;
+            cursor: pointer;
         }
-        .feromona { color: #555; font-size: 0.8rem; margin-top: 20px; }
+        .btn:hover { background-color: #ffffff; box-shadow: 0 0 15px #00ff41; }
+        .btn-alt { background-color: #ffffff; color: #000; }
+        .feromona { color: #444; font-size: 0.8rem; margin-top: 30px; letter-spacing: 1px; }
+        
+        @keyframes blink {
+            0% { opacity: 0.2; }
+            50% { opacity: 1; }
+            100% { opacity: 0.2; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>HORMIGAS_AIS</h1>
+        <div class="dots">. . . . . . . . . . . . . . . .</div>
+        
         <p>Infraestructura de inteligencia distribuida y soberana basada en el principio de la "Colonia de Hormigas".</p>
-        <p>Optimizando el Edge Computing mediante el Lenguaje Binario HormigasAIS (LBH).</p>
+        <p>Optimizando el <strong>Edge Computing</strong> mediante el Lenguaje Binario HormigasAIS (LBH).</p>
         
         <a href="https://github.com/HormigasAIS" class="btn">Explorar Protocolos</a>
         <br>
-        <a href="mailto:tu-correo@ejemplo.com" class="btn" style="background-color: #ffffff; color: #000;">Contacto para Proyectos</a>
+        <a href="https://wa.me/50373110972?text=Hola%20Cristhiam,%20vi%20tu%20perfil%20en%20Instagram%20y%20me%20interesa%20el%20protocolo%20HormigasAIS" class="btn btn-alt">Contacto para Proyectos</a>
         
-        <div class="feromona">. . . emitiendo_feromona_digital . . .</div>
+        <div class="feromona">[ STATUS: ACTIVE ] emitiendo_feromona_digital</div>
     </div>
 </body>
 </html>
