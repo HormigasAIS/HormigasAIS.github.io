@@ -1,60 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>HormigasAIS | CHAOS MONKEY</title>
-    <style>
-        :root {
-            --gold: #c9a227; --gold-l: #f0cc5a; --bg: #0c0904;
-            --bg2: #161006; --white: #ffffff; --gray: #afafaf; --dgray: #646464;
-        }
-        body { margin: 0; background: var(--bg); font-family: 'Courier New', monospace; display: flex; justify-content: center; min-height: 100vh; color: var(--white); }
-        .poster { width: 100%; max-width: 600px; background: linear-gradient(180deg, var(--bg), var(--bg2)); padding: 40px; border: 1px solid var(--gold); box-shadow: 0 0 40px rgba(201, 162, 39, 0.3); }
-        
-        /* Estética del Script Python */
-        h1 { font-size: 3.5rem; text-align: center; letter-spacing: 5px; color: var(--white); margin: 0; text-shadow: 2px 2px 0 var(--gold); }
-        .tagline { text-align: center; color: var(--gold); font-size: 0.9rem; margin-bottom: 30px; border-bottom: 1px solid var(--gold); padding-bottom: 10px; }
-        
-        /* Puntos de Feromona (Dinámicos) */
-        .dots { color: var(--gold); text-align: center; font-size: 1.5rem; animation: blink 2s infinite; margin-bottom: 30px; }
-        
-        /* Bloques de Contenido */
-        .block { margin-bottom: 25px; border-left: 3px solid var(--gold); padding-left: 15px; }
-        .block h3 { color: var(--gold-l); margin: 0; font-size: 1.1rem; }
-        .block p { color: var(--gray); font-size: 0.9rem; margin: 5px 0; }
-        
-        /* Footer Protocolo */
-        .footer { text-align: center; margin-top: 50px; border-top: 1px solid var(--gold); padding-top: 20px; }
-        .feromona { color: var(--dgray); font-size: 0.7rem; letter-spacing: 3px; }
-        
-        @keyframes blink { 0%, 100% { opacity: 0.2; } 50% { opacity: 1; } }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chaos Monkey – HormigasAIS</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600;700&family=Bebas+Neue&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0804; font-family: 'Inter', sans-serif; display: flex; justify-content: center; min-height: 100vh; }
+
+  .poster { 
+    width: 100%; max-width: 600px; position: relative; overflow: hidden;
+    background: linear-gradient(180deg, #0a0804 0%, #0f0c08 60%, #0a0804 100%);
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+  }
+
+  /* Header Cinematográfico */
+  .header-image { position: relative; width: 100%; height: 300px; overflow: hidden; }
+  .header-image img { width: 100%; height: 100%; object-fit: cover; }
+  
+  .title-overlay { padding: 20px; text-align: center; }
+  .title-chaos { 
+    font-family: 'Bebas Neue', sans-serif; font-size: 3.5rem; letter-spacing: 5px; 
+    color: #ffffff; text-shadow: 2px 2px 0 #000; 
+  }
+  .monkey-word { color: #f0cc5a; }
+
+  /* Animación Feromona */
+  .dots { color: #c9a227; text-align: center; font-size: 1.5rem; animation: blink 2s infinite; margin: 10px 0; }
+  @keyframes blink { 0%, 100% { opacity: 0.2; } 50% { opacity: 1; } }
+
+  /* Cuerpo */
+  .content-body { padding: 20px; }
+  .block { margin-bottom: 20px; border-left: 3px solid #c9a227; padding-left: 15px; }
+  .block-title { font-weight: 700; color: #c9a227; font-size: 1rem; }
+  .block-body { color: #ccc; font-size: 0.85rem; margin-top: 5px; }
+
+  /* Footer */
+  .footer { text-align: center; padding: 20px; border-top: 1px solid #333; color: #666; font-size: 0.7rem; letter-spacing: 2px; }
+</style>
 </head>
 <body>
-    <div class="poster">
-        <h1>CHAOS MONKEY</h1>
-        <p class="tagline">CUANDO LA CURIOSIDAD SUPERA AL DINERO</p>
-        
-        <div class="dots">. . . . . . . . . . . . . . . .</div>
-        
-        <div class="block">
-            <h3>Cada cabeza es un mundo.</h3>
-            <p>Ingeniería de Protocolos que ha dejado atrás el viejo "0 y 1".</p>
-        </div>
-        <div class="block">
-            <h3>Los curiosos desarrolladores de IA</h3>
-            <p>Analizamos propuestas de "vitrina" frente al valor real de las ideas.</p>
-        </div>
-        <div class="block">
-            <h3>Lo disruptivo es innovación</h3>
-            <p>Transformando pasión en código soberano — CLHQ.</p>
-        </div>
+<div class="poster">
+  <div class="header-image">
+    <img src="header_scene.jpg" alt="Chaos Monkey">
+  </div>
+  
+  <div class="title-overlay">
+    <div class="title-chaos">CHAOS <span class="monkey-word">MONKEY</span></div>
+    <p style="color:#c9a227; font-size: 0.8rem;">CUANDO LA CURIOSIDAD SUPERA AL DINERO</p>
+  </div>
 
-        <div class="footer">
-            <h2 style="color:var(--white);">HormigasAIS</h2>
-            <p style="color:var(--dgray);">Inteligencia Artificial Soberana y Cooperativa</p>
-            <div class="feromona">[ STATUS: ACTIVE ] EMITIENDO_FEROMONA_DIGITAL</div>
-        </div>
+  <div class="dots">. . . . . . . . . . . . . . . .</div>
+
+  <div class="content-body">
+    <div class="block">
+      <div class="block-title">Cada cabeza es un mundo.</div>
+      <div class="block-body">Ingeniería de Protocolos que ha dejado atrás el viejo "0 y 1".</div>
     </div>
+    <div class="block">
+      <div class="block-title">Los curiosos desarrolladores de IA</div>
+      <div class="block-body">Analizamos propuestas de "vitrina" frente al valor real de las ideas.</div>
+    </div>
+    <div class="block">
+      <div class="block-title">Lo disruptivo es innovación</div>
+      <div class="block-body">Transformando pasión en código soberano — CLHQ.</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>ANT-SYSTEM | HORMIGAS_AIS</p>
+    <div style="margin-top:10px;">[ STATUS: ACTIVE ] EMITIENDO_FEROMONA_DIGITAL</div>
+  </div>
+</div>
 </body>
 </html>
