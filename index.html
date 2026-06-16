@@ -2,68 +2,59 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HormigasAIS | Inteligencia Distribuida</title>
-    <meta name="description" content="Infraestructura de inteligencia distribuida y soberana basada en el principio de la Colonia de Hormigas. Protocolo LBH.">
+    <title>HormigasAIS | CHAOS MONKEY</title>
     <style>
-        body {
-            background-color: #0a0a0a;
-            color: #00ff41; /* Verde tipo terminal */
-            font-family: 'Courier New', Courier, monospace;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-            text-align: center;
+        :root {
+            --gold: #c9a227; --gold-l: #f0cc5a; --bg: #0c0904;
+            --bg2: #161006; --white: #ffffff; --gray: #afafaf; --dgray: #646464;
         }
-        .container {
-            border: 1px solid #00ff41;
-            padding: 40px;
-            box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
-            max-width: 80%;
-        }
-        h1 { font-size: 2.2rem; margin-bottom: 5px; letter-spacing: 2px; }
-        .dots { color: #00ff41; font-size: 1.2rem; margin-bottom: 20px; opacity: 0.8; animation: blink 2s infinite; }
-        p { color: #ffffff; max-width: 600px; line-height: 1.6; margin: 15px auto; }
-        .btn {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 12px 25px;
-            color: #0a0a0a;
-            background-color: #00ff41;
-            text-decoration: none;
-            font-weight: bold;
-            text-transform: uppercase;
-            transition: 0.3s;
-            border: none;
-            cursor: pointer;
-        }
-        .btn:hover { background-color: #ffffff; box-shadow: 0 0 15px #00ff41; }
-        .btn-alt { background-color: #ffffff; color: #000; }
-        .feromona { color: #444; font-size: 0.8rem; margin-top: 30px; letter-spacing: 1px; }
+        body { margin: 0; background: var(--bg); font-family: 'Courier New', monospace; display: flex; justify-content: center; min-height: 100vh; color: var(--white); }
+        .poster { width: 100%; max-width: 600px; background: linear-gradient(180deg, var(--bg), var(--bg2)); padding: 40px; border: 1px solid var(--gold); box-shadow: 0 0 40px rgba(201, 162, 39, 0.3); }
         
-        @keyframes blink {
-            0% { opacity: 0.2; }
-            50% { opacity: 1; }
-            100% { opacity: 0.2; }
-        }
+        /* Estética del Script Python */
+        h1 { font-size: 3.5rem; text-align: center; letter-spacing: 5px; color: var(--white); margin: 0; text-shadow: 2px 2px 0 var(--gold); }
+        .tagline { text-align: center; color: var(--gold); font-size: 0.9rem; margin-bottom: 30px; border-bottom: 1px solid var(--gold); padding-bottom: 10px; }
+        
+        /* Puntos de Feromona (Dinámicos) */
+        .dots { color: var(--gold); text-align: center; font-size: 1.5rem; animation: blink 2s infinite; margin-bottom: 30px; }
+        
+        /* Bloques de Contenido */
+        .block { margin-bottom: 25px; border-left: 3px solid var(--gold); padding-left: 15px; }
+        .block h3 { color: var(--gold-l); margin: 0; font-size: 1.1rem; }
+        .block p { color: var(--gray); font-size: 0.9rem; margin: 5px 0; }
+        
+        /* Footer Protocolo */
+        .footer { text-align: center; margin-top: 50px; border-top: 1px solid var(--gold); padding-top: 20px; }
+        .feromona { color: var(--dgray); font-size: 0.7rem; letter-spacing: 3px; }
+        
+        @keyframes blink { 0%, 100% { opacity: 0.2; } 50% { opacity: 1; } }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>HORMIGAS_AIS</h1>
+    <div class="poster">
+        <h1>CHAOS MONKEY</h1>
+        <p class="tagline">CUANDO LA CURIOSIDAD SUPERA AL DINERO</p>
+        
         <div class="dots">. . . . . . . . . . . . . . . .</div>
         
-        <p>Infraestructura de inteligencia distribuida y soberana basada en el principio de la "Colonia de Hormigas".</p>
-        <p>Optimizando el <strong>Edge Computing</strong> mediante el Lenguaje Binario HormigasAIS (LBH).</p>
-        
-        <a href="https://github.com/HormigasAIS" class="btn">Explorar Protocolos</a>
-        <br>
-        <a href="https://wa.me/50373110972?text=Hola%20Cristhiam,%20vi%20tu%20perfil%20en%20Instagram%20y%20me%20interesa%20el%20protocolo%20HormigasAIS" class="btn btn-alt">Contacto para Proyectos</a>
-        
-        <div class="feromona">[ STATUS: ACTIVE ] emitiendo_feromona_digital</div>
+        <div class="block">
+            <h3>Cada cabeza es un mundo.</h3>
+            <p>Ingeniería de Protocolos que ha dejado atrás el viejo "0 y 1".</p>
+        </div>
+        <div class="block">
+            <h3>Los curiosos desarrolladores de IA</h3>
+            <p>Analizamos propuestas de "vitrina" frente al valor real de las ideas.</p>
+        </div>
+        <div class="block">
+            <h3>Lo disruptivo es innovación</h3>
+            <p>Transformando pasión en código soberano — CLHQ.</p>
+        </div>
+
+        <div class="footer">
+            <h2 style="color:var(--white);">HormigasAIS</h2>
+            <p style="color:var(--dgray);">Inteligencia Artificial Soberana y Cooperativa</p>
+            <div class="feromona">[ STATUS: ACTIVE ] EMITIENDO_FEROMONA_DIGITAL</div>
+        </div>
     </div>
 </body>
 </html>
