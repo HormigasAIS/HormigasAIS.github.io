@@ -1,0 +1,28 @@
+Cristhiam Leonardo Hernandez Quinonez
+Chief Technology Officer & Edge Systems Architect
+clhq@hormigasais.com | San Miguel, El Salvador | github.com/Thrumanshow | linkedin.com/in/cristhiam-lbh-architect | hormigasais.com | DOI: 10.5281/zenodo.19177759
+
+Professional Summary
+Systems engineer and protocol architect specialized in lightweight cryptography, Edge Computing, autonomous agent design, and M2M protocol engineering. Founder of HormigasAIS Ecosystem - distributed AI infrastructure built entirely on edge principles: no VPS, no centralized cloud, full digital sovereignty. Author of LBH Protocol (Lenguaje Binario HormigasAIS), published on Zenodo (DOI: 10.5281/zenodo.19177759). GitOps pipeline: Android ARM64 Nodo A16 -> GitHub Pages -> Cloudflare CDN -> production.
+
+Core Technical Competencies
+Protocol Design: LBH v2.0 binary frame encoding, HMAC-SHA256 signing, transport-agnostic delivery. M2M sync via pheromone signaling - broker-free alternative to NATS/MQTT. XOXO Bus event-driven messaging.
+Autonomous Agent Infrastructure: Decentralized training using .human behavioral governance protocol. Adaptive thresholds IoT/Edge. Multi-agent orchestration with sovereign memory (.lbh files). Sandbox isolation.
+Security & Cryptography: HMAC-SHA256 asset signing zero external deps (Python stdlib). Production seal verification at hormigasais.com (e.g., CLHQ-Q5PTRLA0). Sovereign key management ~/.hormigas_secrets. GitHub Push Protection, PAT rotation.
+Engineering Stack: Python 3.x (stdlib-first), Bash/Shell (Termux ARM64), JavaScript/Node.js, Git/GitHub Actions, Cloudflare Workers+KV, Android ARM64 as production edge node.
+
+Flagship Innovation - HormigasAIS Ecosystem | Founder & Lead Architect | 2024-Present
+- LBH_SPEC_v2.0 Formal spec on Zenodo DOI 19177759.
+- Dual SDK: pip install lbh-sdk (PyPI 16/16 tests) / npm install lbh-sdk-hormigasais (npm 25/25 tests)
+- Cryptographic sealing system production at hormigasais.com
+- Pheromone signaling architecture for multi-agent coordination without central broker
+- Sovereign legal infrastructure docs.hormigasais.com/legal.html + institucionalidad.html
+- Full GitOps: A16 -> GitHub Pages -> Cloudflare CDN. sitemap.xml + sitemap-repos.xml 200 OK. DOI v1 17767205 + v2 19177759. 6 repos sealed.
+
+Published Work & Credentials
+- LBH Protocol Spec: DOI 10.5281/zenodo.19177759
+- SDK Python: pypi.org/project/lbh-sdk
+- SDK JavaScript: npmjs.com/package/lbh-sdk-hormigasais
+- Blog: blog.hormigasais.com
+- IP Registry: github.com/Thrumanshow/HormigasAIS-Institucionalidad
+- Production: hormigasais.com
