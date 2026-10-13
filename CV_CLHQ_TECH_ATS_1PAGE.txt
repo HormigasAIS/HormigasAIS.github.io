@@ -3,11 +3,11 @@ Founder & CTO | Edge Systems Architect
 clhq@hormigasais.com | San Miguel, El Salvador | github.com/Thrumanshow | linkedin.com/in/cristhiam-lbh-architect | hormigasais.com | DOI: 10.5281/zenodo.19177759
 
 Professional Summary
-Systems engineer and protocol architect specialized in applied cryptography (HMAC-SHA256 signing), Edge Computing, autonomous agent design, and M2M protocol engineering. Founder of HormigasAIS Ecosystem - distributed AI infrastructure built entirely on edge principles: no VPS, no centralized cloud, full digital sovereignty. Author of LBH Protocol (Lenguaje Binario HormigasAIS), published on Zenodo. GitOps pipeline: Android ARM64 Nodo A16 -> GitHub Pages -> Cloudflare CDN -> production.
+Systems engineer and protocol architect specialized in applied cryptography (HMAC-SHA256, Ed25519 signing), Edge Computing, autonomous agent design, and M2M protocol engineering. Founder of HormigasAIS Ecosystem - distributed AI infrastructure built entirely on edge principles: no VPS, no centralized cloud, full digital sovereignty. Author of LBH Protocol (Lenguaje Binario HormigasAIS), published on Zenodo. GitOps pipeline: Android ARM64 Nodo A16 -> GitHub Pages -> Cloudflare CDN -> production.
 
 Core Technical Competencies
 Protocol Design: LBH v2.0 binary frame encoding, HMAC-SHA256 signing, transport-agnostic delivery. M2M sync via pheromone signaling - broker-free alternative to NATS/MQTT. XOXO Bus event-driven messaging.
-Autonomous Agent Infrastructure: Decentralized training using .human behavioral governance protocol. Adaptive thresholds IoT/Edge. Multi-agent orchestration with sovereign memory (.lbh files). Sandbox isolation.
+Autonomous Agent Infrastructure: Decentralized agent training governed by human-readable manifests (.human: roles, permissions, sandbox mode, kill switch). Adaptive thresholds IoT/Edge. Multi-agent orchestration with sovereign agent memory and HMAC-signed seals (.lbh files). Sandbox isolation.
 Security & Cryptography: HMAC-SHA256 asset signing zero external deps (Python stdlib). Production seal verification at hormigasais.com (e.g., CLHQ-Q5PTRLA0). Sovereign key management. GitHub Push Protection, PAT rotation.
 Engineering Stack: Python 3.x (stdlib-first), Bash/Shell (Termux ARM64), JavaScript/Node.js, Git/GitHub Actions, Cloudflare Workers+KV, Android ARM64 as production edge node.
 
